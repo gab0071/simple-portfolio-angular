@@ -149,3 +149,75 @@ article.about {
 }
 
 
+/* diseñando el formlario */
+.container {
+    padding: 50px;
+    padding-top: 10px;
+}
+
+.container h2 {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+form {
+    width: 80%;
+}
+
+form label {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="number"],
+form input[type="email"],
+form textarea {
+    width: 40%;
+    padding: 5px;
+}
+
+form button,
+form input[type="submit"] {
+    font-size: 14px;
+    padding: 8px;
+    display: block;
+    margin-top: 15px;
+    color: white;
+    background: rgba(53, 103, 164, 1);
+    cursor: pointer;
+}
+
+form button:hover,
+form input[type="submit"]:hover {
+    color: black;
+    background: rgba(53, 103, 164, 0.8);
+    cursor: pointer;
+}
+
+form input[disabled] {
+    opacity: 0.4;
+    cursor: not-allowed;
+}
+
+.form-err {
+    padding: 8px;
+    color: red;
+}
+
+.msg {
+    padding: 5px;
+    border: 1px solid #eee;
+    width: 50%;
+}
+
+.success {
+    color: green;
+}
+
+.failed {
+    color: red;
+}
