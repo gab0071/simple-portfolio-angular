@@ -87,7 +87,8 @@ header a:hover,
 
 /* diseñando el contenedor principal */
 #content {
-    min-height: 500px;
+    min-height: 1000px;
+    height: auto;
     width: 80%;
     margin: 0px auto;
     border-left: 1px solid #b7b7b7;
@@ -221,3 +222,27 @@ form input[disabled] {
 .failed {
     color: red;
 }
+
+/* diseñando la pagina de proyecto */
+.project {
+    list-style: none;
+    display: block;
+    float: left;
+    width: 20%;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+
+.project .image {
+    width: 100%;
+    height: 320px;
+    overflow: hidden;
+}
+
+.project img{
+    width: 100%;
+    
+}
+

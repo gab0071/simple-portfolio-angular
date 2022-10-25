@@ -20,8 +20,14 @@ export class ProyectoService{
 
     saveProject(proyecto: Proyecto): Observable<any>{
         let params = JSON.stringify(proyecto);
-        let headers = new HttpHeaders().set('Content-type', 'application/json')
+        let headers = new HttpHeaders().set('Content-Type', 'application/json')
 
         return this._http.post(this.url+'save-proyecto', params, {headers: headers})
+    }
+
+    getProjects(): Observable<any> {
+        let headers = new HttpHeaders().set('Content-Type', 'application/json')
+
+        return this._http.get(this.url+'proyectos', {headers: headers})
     }
 }
