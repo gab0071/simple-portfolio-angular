@@ -11,6 +11,8 @@ import { ProyectoComponent } from './components/proyecto/proyecto.component';
 import { CrearProyectoComponent } from './components/crear-proyecto/crear-proyecto.component';
 import { ContactoComponent } from './components/contacto/contacto.component';
 import { ErrorComponent } from './components/error/error.component';
+import { DetallesComponent } from './components/detalles/detalles.component';
+import { EditarComponent } from './components/editar/editar.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { ErrorComponent } from './components/error/error.component';
     ProyectoComponent,
     CrearProyectoComponent,
     ContactoComponent,
-    ErrorComponent
+    ErrorComponent,
+    DetallesComponent,
+    EditarComponent
   ],
   imports: [
     BrowserModule,
