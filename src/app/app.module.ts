@@ -13,6 +13,9 @@ import { ContactoComponent } from './components/contacto/contacto.component';
 import { ErrorComponent } from './components/error/error.component';
 import { DetallesComponent } from './components/detalles/detalles.component';
 import { EditarComponent } from './components/editar/editar.component';
+import { SliderComponent } from './components/slider/slider.component';
+
+
 
 @NgModule({
   declarations: [
@@ -23,7 +26,8 @@ import { EditarComponent } from './components/editar/editar.component';
     ContactoComponent,
     ErrorComponent,
     DetallesComponent,
-    EditarComponent
+    EditarComponent,
+    SliderComponent
   ],
   imports: [
     BrowserModule,
